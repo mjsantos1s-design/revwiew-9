@@ -26,10 +26,10 @@ function getTimeRemaining(endtime) {
 
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
-  var secondsSpan = clock.querySelector('.seconds');
+  var daysSpan = clock.getElementById(days);
+  var hoursSpan = clock.getElementById(hours);
+  var minutesSpan = clock.getElementById(minutes);
+  var secondsSpan = clock.getElementById(seconds);
 
   function updateClock() {
     var t = getTimeRemaining(endtime);
