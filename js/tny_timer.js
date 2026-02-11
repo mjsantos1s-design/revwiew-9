@@ -24,7 +24,7 @@ document.getElementById("dateNow").innerHTML =
 dateStr + "<br />" + timeStr;
 
 /*Calculate the days until January 1st */
-var newYear = new Date("January 1, 2058");
+var newYear = new Date("January 1, 2018");
 var nextYear = currentDay.getFullYear() + 1;
 newYear.setFullYear(nextYear);
 var daysLeft = (newYear - currentDay)/(1000*60*60*24)
