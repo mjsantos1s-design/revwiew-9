@@ -20,7 +20,7 @@ var dateStr = currentDay.toLocaleDateString();
 var timeStr = currentDay.toLocaleTimeString();
 
 /* Display the current date and time */
-document.getElementById("currentTime").innerHTML =
+document.getElementById("dateNow").innerHTML =
 dateStr + "<br />" + timeStr;
 
 /*Calculate the days until January 1st */
